@@ -1,0 +1,19 @@
+{
+  "name": "servidor-nodejs-api-ml",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "nodemon src/index.js localhost 8080"
+  },
+  "dependencies": {
+    "axios": "0.19.0",
+    "express": "4.17.1",
+    "request": "2.88.0",
+    "zip-stream": "4.0.4"
+  },
+  "devDependencies": {
+    "nodemon": "1.18.4"
+  },
+  "keywords": []
+}
